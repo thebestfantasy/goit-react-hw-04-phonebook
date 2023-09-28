@@ -2,8 +2,6 @@ import css from './contactList.module.css';
 import PropTypes from 'prop-types';
 
 const ContactList = ({ filteredContacts, onDeleteContact }) => {
-  console.log(filteredContacts);
-
   return (
     <ul>
       {filteredContacts.map(contact => (
